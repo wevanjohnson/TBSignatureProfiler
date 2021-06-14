@@ -89,7 +89,7 @@
 #'                  colList = color.list)
 #'
 signatureHeatmap <- function(inputData, annotationData, name = "Signatures",
-                             signatureColNames, annotationColNames,
+                             signatureColNames, annotationColNames, 
                              colList = list(), scale = FALSE,
                              showColumnNames = TRUE,
                              showRowNames = TRUE, colorSets = c("Set1", "Set2",
